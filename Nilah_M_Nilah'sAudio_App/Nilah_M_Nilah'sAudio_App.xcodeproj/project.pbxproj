@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BA57C8824EDA6C500A23437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA57C8724EDA6C500A23437 /* AppDelegate.swift */; };
+		5BA57C8A24EDA6C500A23437 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA57C8924EDA6C500A23437 /* SceneDelegate.swift */; };
+		5BA57C8C24EDA6C500A23437 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA57C8B24EDA6C500A23437 /* ViewController.swift */; };
+		5BA57C8F24EDA6C500A23437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA57C8D24EDA6C500A23437 /* Main.storyboard */; };
+		5BA57C9124EDA6C600A23437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA57C9024EDA6C600A23437 /* Assets.xcassets */; };
+		5BA57C9424EDA6C600A23437 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA57C9224EDA6C600A23437 /* LaunchScreen.storyboard */; };
+		5BA57C9F24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA57C9E24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppTests.swift */; };
+		5BA57CAA24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA57CA924EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppUITests.swift */; };
+		5BA57CB824EDA6E800A23437 /* Rollercoaster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BA57CB724EDA6E800A23437 /* Rollercoaster.jpg */; };
+		5BA57CBA24EDA6F000A23437 /* Rollercoaster.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5BA57CB924EDA6F000A23437 /* Rollercoaster.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BA57C9B24EDA6C600A23437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA57C7C24EDA6C500A23437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA57C8324EDA6C500A23437;
+			remoteInfo = "Nilah_M_Nilah'sAudio_App";
+		};
+		5BA57CA624EDA6C600A23437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BA57C7C24EDA6C500A23437 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA57C8324EDA6C500A23437;
+			remoteInfo = "Nilah_M_Nilah'sAudio_App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BA57C8424EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nilah_M_Nilah'sAudio_App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA57C8724EDA6C500A23437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BA57C8924EDA6C500A23437 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5BA57C8B24EDA6C500A23437 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BA57C8E24EDA6C500A23437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BA57C9024EDA6C600A23437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BA57C9324EDA6C600A23437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BA57C9524EDA6C600A23437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA57C9A24EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nilah_M_Nilah'sAudio_AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA57C9E24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nilah_M_Nilah_sAudio_AppTests.swift; sourceTree = "<group>"; };
+		5BA57CA024EDA6C600A23437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA57CA524EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nilah_M_Nilah'sAudio_AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BA57CA924EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nilah_M_Nilah_sAudio_AppUITests.swift; sourceTree = "<group>"; };
+		5BA57CAB24EDA6C600A23437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA57CB724EDA6E800A23437 /* Rollercoaster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rollercoaster.jpg; sourceTree = "<group>"; };
+		5BA57CB924EDA6F000A23437 /* Rollercoaster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Rollercoaster.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BA57C8124EDA6C500A23437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA57C9724EDA6C600A23437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA57CA224EDA6C600A23437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BA57C7B24EDA6C500A23437 = {
+			isa = PBXGroup;
+			children = (
+				5BA57C8624EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App */,
+				5BA57C9D24EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests */,
+				5BA57CA824EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests */,
+				5BA57C8524EDA6C500A23437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BA57C8524EDA6C500A23437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BA57C8424EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App.app */,
+				5BA57C9A24EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests.xctest */,
+				5BA57CA524EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BA57C8624EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App */ = {
+			isa = PBXGroup;
+			children = (
+				5BA57C8724EDA6C500A23437 /* AppDelegate.swift */,
+				5BA57C8924EDA6C500A23437 /* SceneDelegate.swift */,
+				5BA57C8B24EDA6C500A23437 /* ViewController.swift */,
+				5BA57C8D24EDA6C500A23437 /* Main.storyboard */,
+				5BA57CB724EDA6E800A23437 /* Rollercoaster.jpg */,
+				5BA57CB924EDA6F000A23437 /* Rollercoaster.wav */,
+				5BA57C9024EDA6C600A23437 /* Assets.xcassets */,
+				5BA57C9224EDA6C600A23437 /* LaunchScreen.storyboard */,
+				5BA57C9524EDA6C600A23437 /* Info.plist */,
+			);
+			path = "Nilah_M_Nilah'sAudio_App";
+			sourceTree = "<group>";
+		};
+		5BA57C9D24EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA57C9E24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppTests.swift */,
+				5BA57CA024EDA6C600A23437 /* Info.plist */,
+			);
+			path = "Nilah_M_Nilah'sAudio_AppTests";
+			sourceTree = "<group>";
+		};
+		5BA57CA824EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA57CA924EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppUITests.swift */,
+				5BA57CAB24EDA6C600A23437 /* Info.plist */,
+			);
+			path = "Nilah_M_Nilah'sAudio_AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BA57C8324EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA57CAE24EDA6C600A23437 /* Build configuration list for PBXNativeTarget "Nilah_M_Nilah'sAudio_App" */;
+			buildPhases = (
+				5BA57C8024EDA6C500A23437 /* Sources */,
+				5BA57C8124EDA6C500A23437 /* Frameworks */,
+				5BA57C8224EDA6C500A23437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nilah_M_Nilah'sAudio_App";
+			productName = "Nilah_M_Nilah'sAudio_App";
+			productReference = 5BA57C8424EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BA57C9924EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA57CB124EDA6C600A23437 /* Build configuration list for PBXNativeTarget "Nilah_M_Nilah'sAudio_AppTests" */;
+			buildPhases = (
+				5BA57C9624EDA6C600A23437 /* Sources */,
+				5BA57C9724EDA6C600A23437 /* Frameworks */,
+				5BA57C9824EDA6C600A23437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA57C9C24EDA6C600A23437 /* PBXTargetDependency */,
+			);
+			name = "Nilah_M_Nilah'sAudio_AppTests";
+			productName = "Nilah_M_Nilah'sAudio_AppTests";
+			productReference = 5BA57C9A24EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BA57CA424EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BA57CB424EDA6C600A23437 /* Build configuration list for PBXNativeTarget "Nilah_M_Nilah'sAudio_AppUITests" */;
+			buildPhases = (
+				5BA57CA124EDA6C600A23437 /* Sources */,
+				5BA57CA224EDA6C600A23437 /* Frameworks */,
+				5BA57CA324EDA6C600A23437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BA57CA724EDA6C600A23437 /* PBXTargetDependency */,
+			);
+			name = "Nilah_M_Nilah'sAudio_AppUITests";
+			productName = "Nilah_M_Nilah'sAudio_AppUITests";
+			productReference = 5BA57CA524EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BA57C7C24EDA6C500A23437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nilah Marshall";
+				TargetAttributes = {
+					5BA57C8324EDA6C500A23437 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					5BA57C9924EDA6C600A23437 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5BA57C8324EDA6C500A23437;
+					};
+					5BA57CA424EDA6C600A23437 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 5BA57C8324EDA6C500A23437;
+					};
+				};
+			};
+			buildConfigurationList = 5BA57C7F24EDA6C500A23437 /* Build configuration list for PBXProject "Nilah_M_Nilah'sAudio_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BA57C7B24EDA6C500A23437;
+			productRefGroup = 5BA57C8524EDA6C500A23437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BA57C8324EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App */,
+				5BA57C9924EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppTests */,
+				5BA57CA424EDA6C600A23437 /* Nilah_M_Nilah'sAudio_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BA57C8224EDA6C500A23437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA57C9424EDA6C600A23437 /* LaunchScreen.storyboard in Resources */,
+				5BA57CB824EDA6E800A23437 /* Rollercoaster.jpg in Resources */,
+				5BA57C9124EDA6C600A23437 /* Assets.xcassets in Resources */,
+				5BA57C8F24EDA6C500A23437 /* Main.storyboard in Resources */,
+				5BA57CBA24EDA6F000A23437 /* Rollercoaster.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA57C9824EDA6C600A23437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA57CA324EDA6C600A23437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BA57C8024EDA6C500A23437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA57C8C24EDA6C500A23437 /* ViewController.swift in Sources */,
+				5BA57C8824EDA6C500A23437 /* AppDelegate.swift in Sources */,
+				5BA57C8A24EDA6C500A23437 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA57C9624EDA6C600A23437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA57C9F24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA57CA124EDA6C600A23437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BA57CAA24EDA6C600A23437 /* Nilah_M_Nilah_sAudio_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BA57C9C24EDA6C600A23437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA57C8324EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App */;
+			targetProxy = 5BA57C9B24EDA6C600A23437 /* PBXContainerItemProxy */;
+		};
+		5BA57CA724EDA6C600A23437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BA57C8324EDA6C500A23437 /* Nilah_M_Nilah'sAudio_App */;
+			targetProxy = 5BA57CA624EDA6C600A23437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BA57C8D24EDA6C500A23437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA57C8E24EDA6C500A23437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BA57C9224EDA6C600A23437 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BA57C9324EDA6C600A23437 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BA57CAC24EDA6C600A23437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BA57CAD24EDA6C600A23437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BA57CAF24EDA6C600A23437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nilah_M_Nilah'sAudio_App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworksCSP.M..Nilah-M-Nilah-sAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BA57CB024EDA6C600A23437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nilah_M_Nilah'sAudio_App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworksCSP.M..Nilah-M-Nilah-sAudio-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BA57CB224EDA6C600A23437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nilah_M_Nilah'sAudio_AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworksCSP.M..Nilah-M-Nilah-sAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nilah_M_Nilah'sAudio_App.app/Nilah_M_Nilah'sAudio_App";
+			};
+			name = Debug;
+		};
+		5BA57CB324EDA6C600A23437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nilah_M_Nilah'sAudio_AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworksCSP.M..Nilah-M-Nilah-sAudio-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nilah_M_Nilah'sAudio_App.app/Nilah_M_Nilah'sAudio_App";
+			};
+			name = Release;
+		};
+		5BA57CB524EDA6C600A23437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nilah_M_Nilah'sAudio_AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworksCSP.M..Nilah-M-Nilah-sAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nilah_M_Nilah'sAudio_App";
+			};
+			name = Debug;
+		};
+		5BA57CB624EDA6C600A23437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nilah_M_Nilah'sAudio_AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.genesysworksCSP.M..Nilah-M-Nilah-sAudio-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nilah_M_Nilah'sAudio_App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BA57C7F24EDA6C500A23437 /* Build configuration list for PBXProject "Nilah_M_Nilah'sAudio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA57CAC24EDA6C600A23437 /* Debug */,
+				5BA57CAD24EDA6C600A23437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA57CAE24EDA6C600A23437 /* Build configuration list for PBXNativeTarget "Nilah_M_Nilah'sAudio_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA57CAF24EDA6C600A23437 /* Debug */,
+				5BA57CB024EDA6C600A23437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA57CB124EDA6C600A23437 /* Build configuration list for PBXNativeTarget "Nilah_M_Nilah'sAudio_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA57CB224EDA6C600A23437 /* Debug */,
+				5BA57CB324EDA6C600A23437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BA57CB424EDA6C600A23437 /* Build configuration list for PBXNativeTarget "Nilah_M_Nilah'sAudio_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA57CB524EDA6C600A23437 /* Debug */,
+				5BA57CB624EDA6C600A23437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BA57C7C24EDA6C500A23437 /* Project object */;
+}
